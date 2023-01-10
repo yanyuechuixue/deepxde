@@ -274,6 +274,9 @@ def elu(x):
 def relu(x):
     """Applies the rectified linear unit activation function."""
 
+def gelu(x):
+    """gelu."""
+
 
 def selu(x):
     """Computes scaled exponential linear."""

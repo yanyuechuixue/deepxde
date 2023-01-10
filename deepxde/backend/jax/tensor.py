@@ -68,6 +68,9 @@ def elu(x):
 def relu(x):
     return jax.nn.relu(x)
 
+def gelu(x):
+    return jax.nn.gelu(x)
+
 
 def selu(x):
     return jax.nn.selu(x)

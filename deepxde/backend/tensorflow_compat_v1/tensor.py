@@ -135,6 +135,9 @@ def elu(x):
 def relu(x):
     return tf.nn.relu(x)
 
+def gelu(x):
+    return tf.nn.gelu(x)
+
 
 def selu(x):
     return tf.nn.selu(x)

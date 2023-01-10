@@ -125,6 +125,9 @@ def elu(x):
 def relu(x):
     return torch.nn.functional.relu(x)
 
+def gelu(x):
+    return torch.nn.functional.gelu(x)
+
 
 def selu(x):
     return torch.nn.functional.selu(x)

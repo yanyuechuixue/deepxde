@@ -117,6 +117,9 @@ def elu(x):
 def relu(x):
     return paddle.nn.functional.relu(x)
 
+def gelu(x):
+    return paddle.nn.functional.gelu(x)
+
 
 def selu(x):
     return paddle.nn.functional.selu(x)
